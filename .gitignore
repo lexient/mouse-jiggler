@@ -1,0 +1,20 @@
+.pio/
+.cmake/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+ipch/
+
+# VS Code
+.vscode/
+.history/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Logs
+*.log
