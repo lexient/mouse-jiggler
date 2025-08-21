@@ -2,17 +2,22 @@
 
 ![Jiggler](images/jiggler.png)
 
+Mouse jiggler, mouse wiggler, mouse mover, many terms for the same thing. 
+This connects to your device and simulates activity so you can make a coffee without getting your pay docked. 
+
 ## Why I made this
 
-Made for a mate that has their Windows device monitored like in 1984.
+For a mate (seriously — I'm self employed).
+
+## Features
 
 I'm not an expert in Endpoint, but I implemented some detection counter-measures:
 
-- randomised movement and randomised pauses
-- realistic battery reporting (with simulated charging)
-- named "Logitech M705"
+- Randomised movement and randomised pauses
+- Realistic battery reporting (with simulated charging)
+- Named "Logitech M705"
 
-It's not perfect - the MAC address would reveal that it's an ESP32. I'm not really sure how to spoof that yet.
+It's not perfect - **the MAC address would reveal that it's an ESP32**. I'm not really sure how to spoof that yet.
 
 ![Name and battery](images/name-and-battery.png)
 
